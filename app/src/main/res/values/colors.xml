@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text Colors -->
+    <color name="textColorPrimary">#212121</color> <!-- Dark text color -->
+    <color name="textColorSecondary">#757575</color> <!-- Light text color -->
+    <color name="textColorPrimaryInverse">#FFFFFF</color> <!-- Inverse dark text color -->
+
+    <!-- Background Colors -->
+    <color name="backgroundColorPrimary">#FFFFFF</color> <!-- Primary background color -->
+    <color name="backgroundColorSecondary">#F5F5F5</color> <!-- Secondary background color -->
+
+    <!-- Button Colors -->
+    <color name="buttonColorPrimary">#2196F3</color> <!-- Primary button color -->
+    <color name="buttonColorSecondary">#FF5722</color> <!-- Secondary button color -->
+
+    <!-- Custom Colors -->
+    <color name="customColor1">#4CAF50</color>
+    <color name="customColor2">#FFC107</color>
+    <color name="customColor3">#9C27B0</color>
+    <color name="customColor4">#FF9800</color>
+    <color name="customColor5">#03A9F4</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

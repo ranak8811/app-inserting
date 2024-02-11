@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@color/colorPrimary">
+
+        <!-- StaySwift Logo -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hotel_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <!-- Search Bar -->
+    <EditText
+        android:id="@+id/searchEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search for hotels by city, landmark, or property name"
+        android:padding="12dp"
+        android:layout_below="@id/headerLayout"
+        android:background="@color/white"
+        android:layout_margin="16dp" />
+
+    <!-- Filter Options -->
+    <LinearLayout
+        android:id="@+id/filterOptionsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_below="@id/searchEditText"
+        android:background="@color/colorPrimaryDark">
+
+        <!-- Add filter options here (price range, star rating, amenities, etc.) -->
+
+    </LinearLayout>
+
+    <!-- Hotel Listings -->
+    <LinearLayout
+        android:id="@+id/hotelListingsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_below="@id/filterOptionsLayout">
+
+        <!-- Add dynamic hotel listings here -->
+
+    </LinearLayout>
+
+    <!-- Sorting Controls -->
+    <Spinner
+        android:id="@+id/sortingSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@id/hotelListingsLayout" />
+
+    <!-- Navigation Bar -->
+    <LinearLayout
+        android:id="@+id/navigationBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary">
+
+        <!-- Add navigation icons/buttons here -->
+
+    </LinearLayout>
+
+    <!-- Footer Section -->
+    <TextView
+        android:id="@+id/footerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StaySwift - All rights reserved"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/navigationBarLayout"
+        android:background="@color/colorPrimaryDark" />
+
+</RelativeLayout>
